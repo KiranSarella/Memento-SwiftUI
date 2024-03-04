@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB3971B2B9491FE0014DCF7 /* CloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3971A2B9491FE0014DCF7 /* CloudStorage.swift */; };
+		5CB3971F2B95A8F40014DCF7 /* DocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3971E2B95A8F40014DCF7 /* DocView.swift */; };
+		5CB397212B95AB2D0014DCF7 /* SnapshotsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB397202B95AB2D0014DCF7 /* SnapshotsListView.swift */; };
+		5CB397232B95ACDD0014DCF7 /* DocEditorBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB397222B95ACDD0014DCF7 /* DocEditorBusiness.swift */; };
+		5CBE6BFE2B93A7B1008E9DC3 /* Memento_SnapshotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE6BFD2B93A7B1008E9DC3 /* Memento_SnapshotsApp.swift */; };
+		5CBE6C002B93A7B1008E9DC3 /* DocEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE6BFF2B93A7B1008E9DC3 /* DocEditorView.swift */; };
+		5CBE6C022B93A7B3008E9DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE6C012B93A7B3008E9DC3 /* Assets.xcassets */; };
+		5CBE6C062B93A7B3008E9DC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE6C052B93A7B3008E9DC3 /* Preview Assets.xcassets */; };
+		5CBE6C0D2B93AC88008E9DC3 /* DocEditorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE6C0C2B93AC88008E9DC3 /* DocEditorState.swift */; };
+		5CBE6C122B942180008E9DC3 /* DocBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE6C112B942180008E9DC3 /* DocBusiness.swift */; };
+		5CBE6C142B948787008E9DC3 /* SnapshotOriginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE6C132B948787008E9DC3 /* SnapshotOriginator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CB3971A2B9491FE0014DCF7 /* CloudStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorage.swift; sourceTree = "<group>"; };
+		5CB3971E2B95A8F40014DCF7 /* DocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocView.swift; sourceTree = "<group>"; };
+		5CB397202B95AB2D0014DCF7 /* SnapshotsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotsListView.swift; sourceTree = "<group>"; };
+		5CB397222B95ACDD0014DCF7 /* DocEditorBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocEditorBusiness.swift; sourceTree = "<group>"; };
+		5CBE6BFA2B93A7B1008E9DC3 /* Memento-Snapshots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memento-Snapshots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBE6BFD2B93A7B1008E9DC3 /* Memento_SnapshotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento_SnapshotsApp.swift; sourceTree = "<group>"; };
+		5CBE6BFF2B93A7B1008E9DC3 /* DocEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocEditorView.swift; sourceTree = "<group>"; };
+		5CBE6C012B93A7B3008E9DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CBE6C032B93A7B3008E9DC3 /* Memento_Snapshots.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Memento_Snapshots.entitlements; sourceTree = "<group>"; };
+		5CBE6C052B93A7B3008E9DC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CBE6C0C2B93AC88008E9DC3 /* DocEditorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocEditorState.swift; sourceTree = "<group>"; };
+		5CBE6C112B942180008E9DC3 /* DocBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocBusiness.swift; sourceTree = "<group>"; };
+		5CBE6C132B948787008E9DC3 /* SnapshotOriginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotOriginator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CBE6BF72B93A7B1008E9DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CBE6BF12B93A7B1008E9DC3 = {
+			isa = PBXGroup;
+			children = (
+				5CBE6BFC2B93A7B1008E9DC3 /* Memento-Snapshots */,
+				5CBE6BFB2B93A7B1008E9DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CBE6BFB2B93A7B1008E9DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE6BFA2B93A7B1008E9DC3 /* Memento-Snapshots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CBE6BFC2B93A7B1008E9DC3 /* Memento-Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE6BFD2B93A7B1008E9DC3 /* Memento_SnapshotsApp.swift */,
+				5CBE6C0E2B94214D008E9DC3 /* DocEditor */,
+				5CBE6C012B93A7B3008E9DC3 /* Assets.xcassets */,
+				5CBE6C032B93A7B3008E9DC3 /* Memento_Snapshots.entitlements */,
+				5CBE6C042B93A7B3008E9DC3 /* Preview Content */,
+			);
+			path = "Memento-Snapshots";
+			sourceTree = "<group>";
+		};
+		5CBE6C042B93A7B3008E9DC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE6C052B93A7B3008E9DC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CBE6C0E2B94214D008E9DC3 /* DocEditor */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE6C0F2B942159008E9DC3 /* UI */,
+				5CBE6C102B942164008E9DC3 /* Business */,
+			);
+			path = DocEditor;
+			sourceTree = "<group>";
+		};
+		5CBE6C0F2B942159008E9DC3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE6BFF2B93A7B1008E9DC3 /* DocEditorView.swift */,
+				5CBE6C0C2B93AC88008E9DC3 /* DocEditorState.swift */,
+				5CB3971E2B95A8F40014DCF7 /* DocView.swift */,
+				5CB397202B95AB2D0014DCF7 /* SnapshotsListView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5CBE6C102B942164008E9DC3 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				5CB397222B95ACDD0014DCF7 /* DocEditorBusiness.swift */,
+				5CBE6C112B942180008E9DC3 /* DocBusiness.swift */,
+				5CBE6C132B948787008E9DC3 /* SnapshotOriginator.swift */,
+				5CBE6C152B948E4E008E9DC3 /* Storage */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		5CBE6C152B948E4E008E9DC3 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3971A2B9491FE0014DCF7 /* CloudStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CBE6BF92B93A7B1008E9DC3 /* Memento-Snapshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBE6C092B93A7B3008E9DC3 /* Build configuration list for PBXNativeTarget "Memento-Snapshots" */;
+			buildPhases = (
+				5CBE6BF62B93A7B1008E9DC3 /* Sources */,
+				5CBE6BF72B93A7B1008E9DC3 /* Frameworks */,
+				5CBE6BF82B93A7B1008E9DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memento-Snapshots";
+			productName = "Memento-Snapshots";
+			productReference = 5CBE6BFA2B93A7B1008E9DC3 /* Memento-Snapshots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CBE6BF22B93A7B1008E9DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5CBE6BF92B93A7B1008E9DC3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5CBE6BF52B93A7B1008E9DC3 /* Build configuration list for PBXProject "Memento-Snapshots" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CBE6BF12B93A7B1008E9DC3;
+			productRefGroup = 5CBE6BFB2B93A7B1008E9DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CBE6BF92B93A7B1008E9DC3 /* Memento-Snapshots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CBE6BF82B93A7B1008E9DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBE6C062B93A7B3008E9DC3 /* Preview Assets.xcassets in Resources */,
+				5CBE6C022B93A7B3008E9DC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CBE6BF62B93A7B1008E9DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB3971B2B9491FE0014DCF7 /* CloudStorage.swift in Sources */,
+				5CB397232B95ACDD0014DCF7 /* DocEditorBusiness.swift in Sources */,
+				5CBE6C002B93A7B1008E9DC3 /* DocEditorView.swift in Sources */,
+				5CBE6C0D2B93AC88008E9DC3 /* DocEditorState.swift in Sources */,
+				5CB3971F2B95A8F40014DCF7 /* DocView.swift in Sources */,
+				5CBE6C142B948787008E9DC3 /* SnapshotOriginator.swift in Sources */,
+				5CB397212B95AB2D0014DCF7 /* SnapshotsListView.swift in Sources */,
+				5CBE6C122B942180008E9DC3 /* DocBusiness.swift in Sources */,
+				5CBE6BFE2B93A7B1008E9DC3 /* Memento_SnapshotsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CBE6C072B93A7B3008E9DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CBE6C082B93A7B3008E9DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5CBE6C0A2B93A7B3008E9DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Memento-Snapshots/Memento_Snapshots.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memento-Snapshots/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarella.Memento-Snapshots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5CBE6C0B2B93A7B3008E9DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Memento-Snapshots/Memento_Snapshots.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memento-Snapshots/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarella.Memento-Snapshots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CBE6BF52B93A7B1008E9DC3 /* Build configuration list for PBXProject "Memento-Snapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBE6C072B93A7B3008E9DC3 /* Debug */,
+				5CBE6C082B93A7B3008E9DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBE6C092B93A7B3008E9DC3 /* Build configuration list for PBXNativeTarget "Memento-Snapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBE6C0A2B93A7B3008E9DC3 /* Debug */,
+				5CBE6C0B2B93A7B3008E9DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CBE6BF22B93A7B1008E9DC3 /* Project object */;
+}
